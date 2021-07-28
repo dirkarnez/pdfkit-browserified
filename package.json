@@ -1,0 +1,16 @@
+{
+  "name": "pdfkit-browserified",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node_modules/.bin/browserify --standalone PDFDocument node_modules/pdfkit/js/pdfkit.js > dist/pdfkit.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "brfs": "^2.0.2",
+    "browserify": "^17.0.0",
+    "pdfkit": "^0.12.1"
+  }
+}
