@@ -1,5 +1,7 @@
 pdfkit-browserified
 ===================
+[dirkarnez/indexed-images-to-pdf](https://github.com/dirkarnez/indexed-images-to-pdf)
+
 ### How to use
 - ~`npm install; npm run-script build`~
 - Just copy `node_modules\pdfkit\js\pdfkit.standalone.js` and use it
